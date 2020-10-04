@@ -1,0 +1,1 @@
+Modelar en UML la baraja inglesa (incluyendo los comodines/Jokers).

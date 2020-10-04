@@ -1,0 +1,31 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>598</x><y>21</y><w>210</w><h>190</h></coordinates><panel_attributes>Deck
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>708</x><y>201</y><w>70</w><h>150</h></coordinates><panel_attributes>lt=&lt;-
+m1=54
+- cards </panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>599</x><y>331</y><w>210</w><h>190</h></coordinates><panel_attributes>Card
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>959</x><y>332</y><w>210</w><h>190</h></coordinates><panel_attributes>CardJoker
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>799</x><y>432</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;160;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>229</x><y>331</y><w>210</w><h>190</h></coordinates><panel_attributes>CardSuit
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>429</x><y>432</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>170;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>229</x><y>28</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+Suit
+--
+- SPADE
+- CLUB
+- DIAMOND
+- HEART</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>329</x><y>208</y><w>50</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- suit</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>959</x><y>20</y><w>210</w><h>190</h></coordinates><panel_attributes>JokerColour
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1059</x><y>200</y><w>70</w><h>150</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- colour</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>422</x><y>612</y><w>210</w><h>190</h></coordinates><panel_attributes>CardSuitLiteral
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>22</x><y>610</y><w>210</w><h>190</h></coordinates><panel_attributes>CardSuitNumeric
+--
+- num: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>222</x><y>510</y><w>110</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;90;200;10;200</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>510</y><w>100</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;200;80;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>762</x><y>610</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+CardSuitLiteralLetter
+--
+- JOKER
+- QUEEN
+- KING
+- ACE</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>622</x><y>690</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- letter</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element></diagram>
