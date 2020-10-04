@@ -1,0 +1,36 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>432</x><y>0</y><w>210</w><h>190</h></coordinates><panel_attributes>Computer
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>432</x><y>310</y><w>210</w><h>160</h></coordinates><panel_attributes>File
+--
+- name: String
+- weight: float
+- location: String
+- isOpen: boolean
+--
++ File(String, String)
++ open(): void
++ close(): void
++ move(String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>532</x><y>180</y><w>60</w><h>150</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+- files</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>612</x><y>550</y><w>210</w><h>110</h></coordinates><panel_attributes>FileMultimedia
+--
+- duration: float
+- isPlaying: boolean
+--
++ FileMultimedia(String, String, int)
++ play(): void
++ stop(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>532</x><y>460</y><w>100</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150;80;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>292</x><y>730</y><w>290</w><h>90</h></coordinates><panel_attributes>FileAudio
+--
++ FileAudio(String, String, int, String, String, String)
+- format: String
+- artist: String
+- album: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>572</x><y>650</y><w>160</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>140;10;140;130;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>892</x><y>720</y><w>250</w><h>90</h></coordinates><panel_attributes>FileVideo
+--
++ FileVideo(String, String, int, String, int, int)
+- format: String
+- height: int
+- width: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>732</x><y>650</y><w>180</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130;160;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>570</y><w>200</w><h>80</h></coordinates><panel_attributes>FileText
+--
+- encoding: String
+--
++ FileText(String, String,  String)
++ encode(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>402</x><y>460</y><w>120</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;100;150;10;150</additional_attributes></element></diagram>
