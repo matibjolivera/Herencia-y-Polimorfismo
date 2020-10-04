@@ -1,0 +1,11 @@
+3) En toda computadora existen archivos, que constan de nombre, peso, localización y si están o no
+abiertos. Las operaciones comunes a todos los archivos tienen que ver con poder abrirse, cerrarse
+y moverse de ubicación.
+En particular, los archivos multimedia cuentan con una duración en segundos y un indicador sobre
+si están o no en reproducción. Estos cuentan con capacidades para reproducirse y pararse.
+Existen tipos especiales de archivos multimedia: Los archivos de audio y los archivos de video.
+Un archivo de audio tiene formato (mp3, wav, entre otros), artista y álbum mientras que un archivo
+de video tiene formato (mp4, mkv, entre otros), alto y ancho (en pixeles).
+Por último, se cuenta con archivos de texto, de los que se conoce su codificación y tienen la
+capacidad de cifrar su contenido.
+Modelá en UML las clases del modelo, con sus atributos, métodos, constructores y relaciones.
