@@ -1,29 +1,29 @@
-<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>470</x><y>0</y><w>210</w><h>190</h></coordinates><panel_attributes>FiguresGroup
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>470</x><y>15</y><w>210</w><h>190</h></coordinates><panel_attributes>FiguresGroup
 --
-+ showFiguresInfo(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>290</y><w>210</w><h>190</h></coordinates><panel_attributes>AbstractClass
++ showFiguresInfo(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>305</y><w>210</w><h>190</h></coordinates><panel_attributes>AbstractClass
 Figure
 --
 - colour: String
 --
 + getArea(): double
 + getPerimeter(): double
-+ showInfo(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>180</y><w>70</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
++ showInfo(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>195</y><w>70</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..n
-- figures</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>570</y><w>210</w><h>190</h></coordinates><panel_attributes>Circumference
+- figures</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>585</y><w>210</w><h>190</h></coordinates><panel_attributes>Circumference
 --
 - ratio: double
 --
 **+ getArea(): double**
-**+ getPerimeter(): double**</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>570</y><w>210</w><h>190</h></coordinates><panel_attributes>Rectangle
+**+ getPerimeter(): double**</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>585</y><w>210</w><h>190</h></coordinates><panel_attributes>Rectangle
+--
+- base: double
+- height: double
+--
+**+ getArea(): double**
+**+ getPerimeter(): double**</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>870</x><y>585</y><w>210</w><h>190</h></coordinates><panel_attributes>EquilateralTriangle
 --
 - side: double
 - height: double
 --
 **+ getArea(): double**
-**+ getPerimeter(): double**</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>870</x><y>570</y><w>210</w><h>190</h></coordinates><panel_attributes>EquilateralTriangle
---
-- side: double
-- height: double
---
-**+ getArea(): double**
-**+ getPerimeter(): double**</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>410</y><w>320</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>300;10;10;10;10;160</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>470</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>410</y><w>350</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;330;10;330;160</additional_attributes></element></diagram>
+**+ getPerimeter(): double**</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>425</y><w>320</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>300;10;10;10;10;160</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>485</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>425</y><w>350</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;330;10;330;160</additional_attributes></element></diagram>
