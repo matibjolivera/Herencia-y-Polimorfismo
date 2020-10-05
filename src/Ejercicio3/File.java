@@ -21,7 +21,7 @@ public class File {
     public File(String name, String location) {
         this.name = name;
         this.location = location;
-        this.weight = generateRandomWeight();
+        this.weight = 0;
         this.isOpen = false;
     }
 
@@ -95,11 +95,6 @@ public class File {
      */
     public void setOpen(boolean open) {
         isOpen = open;
-    }
-
-    private float generateRandomWeight() {
-        Random random = new Random();
-        return random.nextFloat() * (4096 - 128) + 128;
     }
 
     /**
