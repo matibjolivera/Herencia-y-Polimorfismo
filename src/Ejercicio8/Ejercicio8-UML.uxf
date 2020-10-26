@@ -1,0 +1,42 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>10</y><w>250</w><h>110</h></coordinates><panel_attributes>Commerce
+--
+_# ALICUOT: float = 21_
+--
++ getTotalBilled(): double
++ getQuantitySimpleServices(): int
+- getServiceOperations(): ArrayList&lt;Service&gt;
+- getRepairServices(): ArrayList&lt;Repair&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>200</y><w>170</w><h>70</h></coordinates><panel_attributes>/Operation/
+--
+/# getAmount(): double/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>310</y><w>170</w><h>70</h></coordinates><panel_attributes>Service
+--
+- hours: int
+--
+# getAmount(): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>300</y><w>170</w><h>100</h></coordinates><panel_attributes>Input
+--
+- name: String
+- profit: float
+- listPrice: float
+--
+# getAmount(): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>410</y><w>310</w><h>130</h></coordinates><panel_attributes>Repair
+--
+# HOUR_VALUE: float = 180
+_- MIN_DIFIFICULTY = 1_
+_- MAX_DIFFICULTY = 5_
+_- DIFFICULTY_DIFFERENTIAL_PRICE_FROM: int = 3_
+_- DIFFERENTIAL_PRICE_PERCENTAGE: int = 25_
+_ - SIMPLE_SERVICE_LIMIT: int = 2_
+- difficulty: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>410</y><w>170</w><h>60</h></coordinates><panel_attributes>Assembly
+--
+# HOUR_VALUE: float = 250
+# getAmount(): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>110</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..n
+- operations</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>230</y><w>120</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>230</y><w>110</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10;90;70</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>340</y><w>110</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>340</y><w>100</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10;80;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>300</y><w>100</w><h>90</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+InputType
+--
++ PERIPHERAL
++ HARDWARE
++ CLEANING</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>330</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- type</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>190</y><w>160</w><h>50</h></coordinates><panel_attributes>Matematica
+--
+_ + sumPercentage(): double_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>210</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element></diagram>
